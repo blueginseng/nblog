@@ -1,0 +1,22 @@
+{
+  "name": "naver-blog",
+  "version": "1.0.0",
+  "description": "네이버 카페 SEO 자동 조회/클릭 봇",
+  "type": "commonjs",
+  "main": "index-blog.js",
+  "scripts": {
+    "start": "node index-blog.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.9",
+    "proxy-chain": "^2.4.7",
+    "puppeteer": "^22.8.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "user-agents": "^1.0.1289"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
